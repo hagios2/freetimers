@@ -1,0 +1,60 @@
+.container {
+    max-width: 1200px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: white;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #131212;
+    transition: color .15s ease-in-out;
+    text-decoration: none !important;
+    font-size: 14px;
+  }
+  .site-header .order-now {
+      border: 1px solid #131212;
+      border-radius: 8px;
+      padding: 0px 32px;
+  }
+  .site-header a:hover {
+      color: #000000;
+  }
+
+  .logo .top {
+      font-size: 20px;
+      font-weight: normal;
+      margin-left: 14px;
+  }
+
+  .logo .bottom {
+      font-size: 52px;
+      font-weight: normal;
+      margin-top: -28px;
+  }
+  
+  .hero {
+    height: 70vh;
+  }
+
+  .hero img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  .big-text {
+    font-size: 76px;
+  }
