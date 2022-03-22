@@ -78,3 +78,17 @@
   .light-grey {
     background-color: #f7f7f7;
   }
+
+  .what_others_say {
+    width: 100%;
+    position: relative;
+  }
+
+  .what_others_say_txt {
+    background: #f7f7f7;
+    width: 45%;
+    height: 60vh;
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 600px ;
+  }
