@@ -79,6 +79,7 @@ img {
   height: 180px;
   z-index: 3;
   box-shadow: 2px 1px 7px 1px #888888;
+  margin-top: -89px;
 }
 
 .light-grey {
@@ -117,3 +118,18 @@ footer {
       align-items: flex-start;
     }
 }
+
+@media (min-width: 1400px) {
+  .smll{
+    display: none;
+  }
+}
+
+/* @media (min-width: 1400px) { */
+  .before-round{
+    margin-bottom: 400px;
+  }
+  /* .round {
+
+  } */
+/* } */
