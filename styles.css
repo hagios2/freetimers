@@ -60,5 +60,16 @@
   }
 
   .ipsums {
-    height: 80vh;  
+    height: 90vh;  
+  }
+
+  .rounded {
+    border-radius: 500;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+  }
+
+  .light-grey {
+    background-color: #f7f7f7;
   }
